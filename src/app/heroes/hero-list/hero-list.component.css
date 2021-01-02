@@ -1,0 +1,26 @@
+.item{
+   
+    font-size: 24px;
+    margin-top: 4px;
+    border: gray 1px ;
+    height: 40px;
+}
+
+.heroid{
+    background-color: cadetblue;
+    color: white;
+    padding: 4px 6px;
+    
+}
+
+.heroname{
+    background-color: rgb(37, 98, 100);
+    color: white;
+    margin-right: 2px;
+    padding: 4px 6px;
+
+}
+.item:hover{
+    opacity: 0.7;
+}
+

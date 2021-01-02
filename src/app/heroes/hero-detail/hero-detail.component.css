@@ -1,0 +1,19 @@
+.edit{
+  height: 50px;
+}
+
+labe{
+    height:  25px;
+    font-size: 18px;
+    font-style: italic;
+    padding: 4px 6px;
+    margin: 2px 2px;
+}
+
+input{
+    height: 25px;
+    font-size: 18px;
+    
+    padding: 4px 6px;
+    margin: 2px 2px;
+}
