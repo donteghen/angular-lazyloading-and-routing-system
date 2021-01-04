@@ -1,18 +1,18 @@
 import { SharedModule } from './../shared/shared.module';
-import { RouterModule } from '@angular/router';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { HeroListComponent } from './hero-list/hero-list.component';
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 import { HeroesRoutingModule } from './heroes-routing.module';
 
 
 @NgModule({
-  declarations: [],
   imports: [
-    CommonModule,
     HeroesRoutingModule,
-    RouterModule,
     SharedModule
-  ]
+  ],
+  declarations: [HeroListComponent, HeroDetailComponent],
+  
 })
 export class HeroesModule { }

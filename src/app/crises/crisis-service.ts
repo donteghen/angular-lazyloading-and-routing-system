@@ -1,21 +1,22 @@
 import { Injectable } from "@angular/core";
 import { Observable, of } from "rxjs";
-import { Hero } from "./hero";
-import { HEROES } from "./mock-heroes";
+import { Crisis } from './crisis';
+import { CRISES } from "./mock-crises";
+
 
 @Injectable({
     providedIn: 'root',
   })
-  export class HeroService {
+  export class CrisisService {
   
     constructor() { }
   
-    getHeroes(): Observable<Hero[]> {
+    getCrises(): Observable<Crisis[]> {
       // TODO: send the message _after_ fetching the heroes
       //this.messageService.add('HeroService: fetched heroes');
-      return of(HEROES);
+      return of(CRISES);
     }
-    getHero(id:number):Hero{
-    return HEROES.find(h => h.id == id);
+    getCrisis(id:number):Crisis{
+    return CRISES.find(h => h.id == id);
     }
   }

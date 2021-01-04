@@ -1,0 +1,6 @@
+<h2>HEROES</h2>
+<div>
+    <div *ngFor="let crisis of crises" class="item" routerLink="{{crisis.id}}">
+        <span class="heroid">{{crisis.id}}</span><span class="heroname">{{crisis.name}}</span>
+    </div>
+</div>

@@ -1,6 +1,10 @@
-<nav>
+<nav >
     <a routerLink="/home" routerLinkActive="active-link">Home</a>
     <a routerLink="/heroes" routerLinkActive="active-link">Heroes</a>
-    <a routerLink="/crisis-list" routerLinkActive="active-link">CrisisList</a>
+    <a routerLink="/crises" routerLinkActive="active-link">CrisisList</a>
+    <a routerLink="/admin" routerLinkActive="active">Admin</a>
+    <a [routerLink]="[{ outlets: { popup: ['message'] } }]">Contact</a>
+    <a routerLink="/login" routerLinkActive="active">login</a>
 </nav>
 <router-outlet></router-outlet>
+<router-outlet name="popup"></router-outlet>

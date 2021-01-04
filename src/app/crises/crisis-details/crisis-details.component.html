@@ -1,0 +1,17 @@
+<h3>Hero's Details</h3>
+<p *ngIf="!crises"> Wrong Request. Please Click to refreash</p>
+<p>{{crises.name}}</p>
+<div class="edit">
+    <label >Name:</label>
+    <input type="text" [(ngModel)]="editName" >
+</div>
+
+<div class="actionButtons">
+    <button (click)="cancel()">Cancel</button>
+    <button (click)="save()">Save</button>
+</div>
+
+<div class="navButtons">
+<button (click)="getPrevious(crises.id)">Previous Hero</button>
+<button (click)="getNext(crises.id)">Next Hero</button>
+</div>

@@ -1,0 +1,36 @@
+.edit{
+    height: 50px;
+  }
+  
+  labe{
+      height:  25px;
+      font-size: 18px;
+      font-style: italic;
+      padding: 4px 6px;
+      margin: 2px 2px;
+  }
+  
+  input{
+      height: 25px;
+      font-size: 18px;
+      
+      padding: 4px 6px;
+      margin: 2px 2px;
+  }
+  .navButtons button{
+  background-color: rgb(19, 104, 214);
+  color:white;
+  font-size: 25px;
+  padding: 4px 6px;
+  margin: 8px;
+  
+  }
+  .actionButtons button{
+    background-color: rgb(54, 56, 88);
+    color:white;
+    font-size: 16px;
+    padding: 4px 6px;
+    margin: 8px;
+    
+    }
+  

@@ -17,3 +17,11 @@ input{
     padding: 4px 6px;
     margin: 2px 2px;
 }
+.navButtons button{
+background-color: rgb(19, 104, 214);
+color:white;
+font-size: 25px;
+padding: 4px 6px;
+margin: 8px;
+
+}
